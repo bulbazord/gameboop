@@ -8,3 +8,8 @@ struct gameboy *create_gameboy()
     return gb;
 }
 
+void destroy_gameboy(struct gameboy *gb)
+{
+    free(gb);
+}
+

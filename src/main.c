@@ -14,8 +14,8 @@ int main(int argc, char *argv[])
         exit(1);
     }
 
-    printf("Thanks for the gameboy!\n");
-    free(gb);
+    destroy_gameboy(gb);
+    printf("Thanks for playing!\n");
 
     return 0;
 }
