@@ -8,4 +8,6 @@ struct gameboy {
 
 struct gameboy *create_gameboy(void);
 void destroy_gameboy(struct gameboy *gb);
+
+void run(struct gameboy *gb);
 #endif

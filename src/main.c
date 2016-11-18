@@ -5,6 +5,8 @@
 
 int main(int argc, char *argv[])
 {
+    /*UNUSED(argc);
+    UNUSED(argv);*/
     printf("Hello, gameboop!\n");
 
     // Create a gameboy
@@ -13,6 +15,8 @@ int main(int argc, char *argv[])
         fprintf(stderr, "Failed to create a gameboy\n");
         exit(1);
     }
+
+    run(gb);
 
     destroy_gameboy(gb);
     printf("Thanks for playing!\n");

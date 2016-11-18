@@ -10,3 +10,5 @@ set(HEADER
     ${CMAKE_CURRENT_SOURCE_DIR}/gameboy.h
     PARENT_SCOPE
 )
+
+add_subdirectory(cpu)

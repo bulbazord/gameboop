@@ -13,3 +13,7 @@ void destroy_gameboy(struct gameboy *gb)
     free(gb);
 }
 
+void run(struct gameboy *gb)
+{
+}
+
