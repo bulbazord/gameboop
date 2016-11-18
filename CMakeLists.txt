@@ -3,7 +3,10 @@ project(gameboop)
 
 add_subdirectory(src)
 
-add_definitions(-std=c11)
-add_definitions(-Wall -Wextra -Wpedantic)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+set(CMAKE_C_EXTENSIONS OFF)
+
+set(CMAKE_C_FLAGS "-Wall -Wextra -Wpedantic")
 
 add_executable(gameboop ${SOURCE})
