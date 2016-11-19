@@ -5,8 +5,8 @@
 
 int main(int argc, char *argv[])
 {
-    /*UNUSED(argc);
-    UNUSED(argv);*/
+    (void)argc;
+    (void)argv;
     printf("Hello, gameboop!\n");
 
     // Create a gameboy

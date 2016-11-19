@@ -1,8 +1,12 @@
 #ifndef _GAMEBOY_H
 #define _GAMEBOY_H
 
+#include "cpu/cpu.h"
+#include "mmu/mmu.h"
+
 struct gameboy {
     struct cpu *cpu;
+    struct mmu *mmu;
     struct screen *screen;
 };
 

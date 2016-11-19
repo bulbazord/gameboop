@@ -1,0 +1,11 @@
+set(SOURCE
+    ${SOURCE}
+    ${CMAKE_CURRENT_SOURCE_DIR}/mmu.c
+    PARENT_SCOPE
+)
+
+set(HEADER
+    ${HEADER}
+    ${CMAKE_CURRENT_SOURCE_DIR}/mmu.h
+    PARENT_SCOPE
+)
